@@ -1,11 +1,11 @@
 ---
 env:
-  - APP_NAME=Skeleton
+  - APP_NAME=Auth
 migrations:
   - workbench/database/migrations
   - database/migrations
 seeders:
-  - Lines\Skeleton\Database\Seeders\DatabaseSeeder
+  - Lines\Auth\Database\Seeders\DatabaseSeeder
 providers:
   - BladeUI\Icons\BladeIconsServiceProvider
   - BladeUI\Heroicons\BladeHeroiconsServiceProvider
@@ -21,7 +21,7 @@ providers:
   - Filament\Tables\TablesServiceProvider
   - Filament\Widgets\WidgetsServiceProvider
   - Livewire\LivewireServiceProvider
-  - Lines\Skeleton\SkeletonServiceProvider
+  - Lines\Auth\AuthServiceProvider
   - Workbench\App\Providers\WorkbenchServiceProvider
 purge:
   files:
