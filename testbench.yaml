@@ -1,0 +1,46 @@
+---
+env:
+  - APP_NAME=Skeleton
+migrations:
+  - workbench/database/migrations
+  - database/migrations
+seeders:
+  - Lines\Skeleton\Database\Seeders\DatabaseSeeder
+providers:
+  - BladeUI\Icons\BladeIconsServiceProvider
+  - BladeUI\Heroicons\BladeHeroiconsServiceProvider
+  - RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider
+  - Filament\Actions\ActionsServiceProvider
+  - Filament\FilamentServiceProvider
+  - Filament\Forms\FormsServiceProvider
+  - Filament\Infolists\InfolistsServiceProvider
+  - Filament\Notifications\NotificationsServiceProvider
+  - Filament\QueryBuilder\QueryBuilderServiceProvider
+  - Filament\Schemas\SchemasServiceProvider
+  - Filament\Support\SupportServiceProvider
+  - Filament\Tables\TablesServiceProvider
+  - Filament\Widgets\WidgetsServiceProvider
+  - Livewire\LivewireServiceProvider
+  - Lines\Skeleton\SkeletonServiceProvider
+  - Workbench\App\Providers\WorkbenchServiceProvider
+purge:
+  files:
+    - .env
+  directories:
+    - public/build
+    - public/vendor/*
+workbench:
+  auth: false
+  discovers:
+    api: true
+    commands: true
+    config: true
+    factories: true
+    views: true
+    web: true
+  install: true
+  sync:
+    - from: storage
+      to: workbench/storage
+      reverse: true
+  welcome: true
