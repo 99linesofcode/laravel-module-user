@@ -1,0 +1,19 @@
+# 0.1.0 (2026-03-25)
+
+
+### Bug Fixes
+
+* **dependabot:** time should be of type string instead of int ([0c06cf8](https://github.com/99linesofcode/laravel-module-user/commit/0c06cf814d9995c749e76a4d2ac7fc64d65a9391))
+* **livewire:** loading layouts, pages and components from workbench path ([4737dd0](https://github.com/99linesofcode/laravel-module-user/commit/4737dd0d78fdfe2f01b778ddff3b478f07dade43))
+* **ripgrep:** prevent searching flake.lock ([c71bb6c](https://github.com/99linesofcode/laravel-module-user/commit/c71bb6cf7678e568bb8e4701c96d634ccc1c2e68))
+
+
+### Features
+
+* **dependabot:** automatically update submodules, node and composer packages ([c8245ef](https://github.com/99linesofcode/laravel-module-user/commit/c8245efaf8873ffecee8b3d34e7c398cd3b82b2b))
+* orchestra/workbench wired for Vite.js HMR with proper ignores ([1715012](https://github.com/99linesofcode/laravel-module-user/commit/1715012618ca053825e5875074974c1ecd7c807e))
+* serve User model and factory from 99linesofcode/laravel-module-user ([6956b82](https://github.com/99linesofcode/laravel-module-user/commit/6956b82abd74eadd8dd195ea006b99ad70978236))
+* **socialite:** allow signing into Filament using Laravel Socialite and Authelia ([945a8e0](https://github.com/99linesofcode/laravel-module-user/commit/945a8e08e5e7424766d1f36400bb47f31bf7c78b))
+
+
+
