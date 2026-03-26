@@ -7,7 +7,10 @@ namespace Lines\Auth;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\Support\Facades\Event;
 use Livewire\Livewire;
+use SocialiteProviders\Authelia\Provider;
+use SocialiteProviders\Manager\SocialiteWasCalled;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -38,6 +41,10 @@ class AuthServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
+        Event::listen(function (SocialiteWasCalled $event) {
+            $event->extendSocialite('authelia', Provider::class);
+        });
+
         Livewire::addNamespace(
             namespace: 'auth',
             classNamespace: 'Lines\\Auth\\App\\Livewire',

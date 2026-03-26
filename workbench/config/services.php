@@ -15,9 +15,9 @@ return [
     */
 
     'authelia' => [
-        'base_url' => config('AUTHELIA_BASE_URL'),
-        'client_id' => config('AUTHELIA_CLIENT_ID'),
-        'client_secret' => config('AUTHELIA_CLIENT_SECRET'),
-        'redirect' => config('AUTHELIA_REDIRECT_URI'),
+        'base_url' => env('AUTHELIA_BASE_URL'),
+        'client_id' => env('AUTHELIA_CLIENT_ID'),
+        'client_secret' => env('AUTHELIA_CLIENT_SECRET'),
+        'redirect' => env('AUTHELIA_REDIRECT_URI'),
     ],
 ];
