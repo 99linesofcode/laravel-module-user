@@ -1,3 +1,18 @@
+# [0.2.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.1.2...v0.2.0) (2026-03-30)
+
+
+### Bug Fixes
+
+* **deps:** bump brace-expansion ([#11](https://github.com/99linesofcode/laravel-module-user/issues/11)) ([fe392f7](https://github.com/99linesofcode/laravel-module-user/commit/fe392f70cfc59aab985302e991d362a751adb4c1))
+* **deps:** bump devshell from `e949d95` to `7b1fc23` ([9770496](https://github.com/99linesofcode/laravel-module-user/commit/97704960538be64327e6e559c225f35d62053962))
+
+
+### Features
+
+* **oauth:** login to Filament using Laravel Socialite and the Authelia provider ([6604460](https://github.com/99linesofcode/laravel-module-user/commit/6604460af2ff5e133e30eeada4d2829d4171fd3e))
+
+
+
 ## [0.1.2](https://github.com/99linesofcode/laravel-module-user/compare/v0.1.1...v0.1.2) (2026-03-26)
 
 
