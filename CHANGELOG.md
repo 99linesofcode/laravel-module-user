@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/99linesofcode/laravel-module-user/compare/v0.2.0...v0.2.1) (2026-04-02)
+
+
+### Bug Fixes
+
+* **dependabot:** introduce dependency cooldown to mitigate supply chain attacks ([a2484af](https://github.com/99linesofcode/laravel-module-user/commit/a2484af7efdcc389cc6042ed20a151473f4defd2))
+
+
+
 # [0.2.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.1.2...v0.2.0) (2026-03-30)
 
 
