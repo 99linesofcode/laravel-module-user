@@ -1,3 +1,27 @@
+# [0.3.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.2.2...v0.3.0) (2026-09-06)
+
+
+### Bug Fixes
+
+* **dependabot:** introduce dependency cooldown to mitigate supply chain attacks ([eee94e1](https://github.com/99linesofcode/laravel-module-user/commit/eee94e1c1260aae58ba6323656e335118b7cc254))
+* **dependabot:** time should be a string not an int ([0cb4455](https://github.com/99linesofcode/laravel-module-user/commit/0cb445539850a8a50f73ad89a218c13cf589e45d))
+* **dependabot:** time should be a string not an int ([f66f3cb](https://github.com/99linesofcode/laravel-module-user/commit/f66f3cbe78db6cc713509d8f65aa69ef806512e8))
+* **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#20](https://github.com/99linesofcode/laravel-module-user/issues/20)) ([c121f2c](https://github.com/99linesofcode/laravel-module-user/commit/c121f2ca325c1bb802dd282f815ebb2263adcacc))
+* **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#21](https://github.com/99linesofcode/laravel-module-user/issues/21)) ([3fbd6db](https://github.com/99linesofcode/laravel-module-user/commit/3fbd6dbb678892a6ba9700a97ce8f526e76365f8))
+* **deps:** bump brace-expansion ([#12](https://github.com/99linesofcode/laravel-module-user/issues/12)) ([d9e8adf](https://github.com/99linesofcode/laravel-module-user/commit/d9e8adfe06cf35f99b4b4db4b25e189570a3a253))
+* **deps:** bump devshell from `0195dc0` to `e949d95` ([f715225](https://github.com/99linesofcode/laravel-module-user/commit/f71522515cfc5e6309e286779bf70f32c78d9f66))
+* **deps:** bump devshell from `e949d95` to `7b1fc23` ([3c6163e](https://github.com/99linesofcode/laravel-module-user/commit/3c6163e7b4b894cc88377814f0585a9a608e9576))
+* **deps:** bump follow-redirects ([#24](https://github.com/99linesofcode/laravel-module-user/issues/24)) ([a15efe7](https://github.com/99linesofcode/laravel-module-user/commit/a15efe795d75b20789149cc60804c3c92c2973d3))
+* **deps:** bump protobufjs in the npm_and_yarn group across 1 directory ([#26](https://github.com/99linesofcode/laravel-module-user/issues/26)) ([9e1959f](https://github.com/99linesofcode/laravel-module-user/commit/9e1959f1f35b25e96020ecb33f6dbd396d0efd36))
+* **deps:** bump the npm_and_yarn group across 1 directory with 2 updates ([6cdbc23](https://github.com/99linesofcode/laravel-module-user/commit/6cdbc2347132f186f960241324b6b078529d1fdc))
+
+
+### Features
+
+* **dependabot:** automatically update submodules, node and composer packages ([19eab27](https://github.com/99linesofcode/laravel-module-user/commit/19eab27375cafc2f7c15f1d4c26976da07992098))
+
+
+
 ## [0.2.2](https://github.com/99linesofcode/laravel-module-user/compare/v0.2.1...v0.2.2) (2026-04-19)
 
 
@@ -40,15 +64,6 @@
 ### Bug Fixes
 
 * **deps:** bump picomatch in the npm_and_yarn group across 1 directory ([8a0c8a5](https://github.com/99linesofcode/laravel-module-user/commit/8a0c8a57666eae7b2f59ab918b3d4682f529baf7))
-
-
-
-## [0.1.1](https://github.com/99linesofcode/laravel-module-user/compare/v0.1.0...v0.1.1) (2026-03-25)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `0195dc0` to `e949d95` ([fcc2642](https://github.com/99linesofcode/laravel-module-user/commit/fcc2642edad609ae0ad2e537d8d2d1c1ffc2a88e))
 
 
 
