@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/99linesofcode/laravel-module-user/compare/v0.3.0...v0.3.1) (2026-09-17)
+
+
+### Bug Fixes
+
+* **deps:** bump devshell from `7b1fc23` to `c369d7f` ([#77](https://github.com/99linesofcode/laravel-module-user/issues/77)) ([79c1919](https://github.com/99linesofcode/laravel-module-user/commit/79c1919a9cb884d8bc85b46418e853e98c099d23))
+
+
+
 # [0.3.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.2.2...v0.3.0) (2026-09-06)
 
 
@@ -55,15 +64,6 @@
 ### Features
 
 * **oauth:** login to Filament using Laravel Socialite and the Authelia provider ([6604460](https://github.com/99linesofcode/laravel-module-user/commit/6604460af2ff5e133e30eeada4d2829d4171fd3e))
-
-
-
-## [0.1.2](https://github.com/99linesofcode/laravel-module-user/compare/v0.1.1...v0.1.2) (2026-03-26)
-
-
-### Bug Fixes
-
-* **deps:** bump picomatch in the npm_and_yarn group across 1 directory ([8a0c8a5](https://github.com/99linesofcode/laravel-module-user/commit/8a0c8a57666eae7b2f59ab918b3d4682f529baf7))
 
 
 
