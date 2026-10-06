@@ -1,3 +1,17 @@
+# [0.4.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.3.2...v0.4.0) (2026-10-06)
+
+
+### Bug Fixes
+
+* **deps:** bump devshell from `21db3dd` to `4075c8d` ([#81](https://github.com/99linesofcode/laravel-module-user/issues/81)) ([dd012b9](https://github.com/99linesofcode/laravel-module-user/commit/dd012b90ad3b19c5315ef9a31ca6c367fa147b28))
+
+
+### Features
+
+* **lint:** enforce the layer contract with deptrac ([c0a4afb](https://github.com/99linesofcode/laravel-module-user/commit/c0a4afbfd80f28a4c38874080c71968540c5ca9e))
+
+
+
 ## [0.3.2](https://github.com/99linesofcode/laravel-module-user/compare/v0.3.1...v0.3.2) (2026-09-21)
 
 
@@ -49,15 +63,6 @@
 * **deps:** bump basic-ftp in the npm_and_yarn group across 1 directory ([#20](https://github.com/99linesofcode/laravel-module-user/issues/20)) ([a709e1d](https://github.com/99linesofcode/laravel-module-user/commit/a709e1d11fc99f9390abbe1655dd79378751553a))
 * **deps:** bump follow-redirects ([#23](https://github.com/99linesofcode/laravel-module-user/issues/23)) ([f62c1b2](https://github.com/99linesofcode/laravel-module-user/commit/f62c1b29d634ff9155144637567b5e388fe92776))
 * **deps:** bump protobufjs in the npm_and_yarn group across 1 directory ([#26](https://github.com/99linesofcode/laravel-module-user/issues/26)) ([80ec89f](https://github.com/99linesofcode/laravel-module-user/commit/80ec89f8c18fd68f08152e937dc9d678113c09d7))
-
-
-
-## [0.2.1](https://github.com/99linesofcode/laravel-module-user/compare/v0.2.0...v0.2.1) (2026-04-02)
-
-
-### Bug Fixes
-
-* **dependabot:** introduce dependency cooldown to mitigate supply chain attacks ([a2484af](https://github.com/99linesofcode/laravel-module-user/commit/a2484af7efdcc389cc6042ed20a151473f4defd2))
 
 
 
