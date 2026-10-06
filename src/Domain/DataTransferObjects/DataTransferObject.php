@@ -37,6 +37,8 @@ abstract readonly class DataTransferObject
             $arguments[$k] = isset($casts[$k]) ? $casts[$k]($v, $data) : $v;
         }
 
-        return new static(...$arguments);
+        // Built from the child constructor's own signature, so they always
+        // match — PHPStan cannot verify that across the abstract base.
+        return new static(...$arguments); // @phpstan-ignore new.static
     }
 }
