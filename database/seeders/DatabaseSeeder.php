@@ -4,7 +4,7 @@ namespace Lines\Auth\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
-use Lines\Auth\Domain\Models\User;
+use Lines\Auth\Infrastructure\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
