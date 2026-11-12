@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/99linesofcode/laravel-module-user/compare/v1.1.1...v1.1.2) (2026-11-12)
+
+
+### Bug Fixes
+
+* **deps:** allow Laravel 13 ([ec4c76d](https://github.com/99linesofcode/laravel-module-user/commit/ec4c76dcb8e42175e2197c51ec5ff0be75fa87d4)), closes [TomasVotruba/bladestan#192](https://github.com/TomasVotruba/bladestan/issues/192)
+
+
+
 ## [1.1.1](https://github.com/99linesofcode/laravel-module-user/compare/v1.1.0...v1.1.1) (2026-11-12)
 
 
@@ -50,15 +59,6 @@ point auth.providers.users.model at Lines\Auth\Infrastructure\Models\User.
 No migration converts existing integer ids.
 
 Issue: 0052-laravel-modules-meet-the-skeleton-user-contract
-
-
-
-## [0.4.1](https://github.com/99linesofcode/laravel-module-user/compare/v0.4.0...v0.4.1) (2026-10-06)
-
-
-### Bug Fixes
-
-* **lint:** make composer lint green end to end ([12bc721](https://github.com/99linesofcode/laravel-module-user/commit/12bc721b971d4f7e55ed639c4bfa681aeabf583c))
 
 
 
