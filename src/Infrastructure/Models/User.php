@@ -1,17 +1,27 @@
 <?php
 
-namespace Lines\Auth\Domain\Models;
+namespace Lines\Auth\Infrastructure\Models;
 
 use Illuminate\Database\Eloquent\Attributes\UseFactory;
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Carbon;
 use Lines\Auth\Database\Factories\UserFactory;
 
+/**
+ * @property string $id
+ * @property string $name
+ * @property string $email
+ * @property Carbon|null $email_verified_at
+ * @property string|null $password
+ * @property string|null $locale
+ */
 #[UseFactory(UserFactory::class)]
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable;
+    use HasFactory, HasUuids, Notifiable;
 
     /**
      * The attributes that are mass assignable.
@@ -22,6 +32,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'locale',
     ];
 
     /**

@@ -3,7 +3,6 @@ env:
   - APP_NAME=Auth
 migrations:
   - workbench/database/migrations
-  - database/migrations
 seeders:
   - Lines\Auth\Database\Seeders\DatabaseSeeder
 providers:
@@ -38,7 +37,7 @@ workbench:
     factories: true
     views: true
     web: true
-  install: true
+  install: false
   sync:
     - from: storage
       to: workbench/storage

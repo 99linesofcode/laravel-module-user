@@ -21,7 +21,7 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
-use Lines\Auth\Domain\Models\User;
+use Lines\Auth\Infrastructure\Models\User;
 
 class AdminPanelProvider extends PanelProvider
 {

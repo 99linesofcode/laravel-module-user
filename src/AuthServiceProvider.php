@@ -9,6 +9,8 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Event;
+use Lines\Auth\Infrastructure\UserDirectory\EloquentUserDirectory;
+use Lines\Support\Core\SharedKernel\Ports\UserDirectoryPort;
 use Livewire\Livewire;
 use SocialiteProviders\Authelia\Provider;
 use SocialiteProviders\Manager\SocialiteWasCalled;
@@ -29,7 +31,6 @@ class AuthServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile()
-                    ->publishMigrations()
                     ->askToRunMigrations();
             })
             ->hasConfigFile()
@@ -37,7 +38,13 @@ class AuthServiceProvider extends PackageServiceProvider
             ->hasTranslations()
             ->hasAssets()
             ->hasRoute('web')
-            ->hasMigrations();
+            ->discoversMigrations()
+            ->runsMigrations();
+    }
+
+    public function packageRegistered(): void
+    {
+        $this->app->bind(UserDirectoryPort::class, EloquentUserDirectory::class);
     }
 
     public function packageBooted(): void
