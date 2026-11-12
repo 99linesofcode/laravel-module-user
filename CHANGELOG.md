@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/99linesofcode/laravel-module-user/compare/v1.0.0...v1.0.1) (2026-11-12)
+
+
+### Bug Fixes
+
+* **workbench:** authenticate with the module's auth model ([73871b9](https://github.com/99linesofcode/laravel-module-user/commit/73871b9eda2ec8064d5ff05ab77b3b010a26029d))
+
+
+
 # [1.0.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.4.1...v1.0.0) (2026-11-12)
 
 
@@ -55,15 +64,6 @@ Issue: 0052-laravel-modules-meet-the-skeleton-user-contract
 ### Bug Fixes
 
 * **deps:** bump devshell from `c369d7f` to `21db3dd` ([#79](https://github.com/99linesofcode/laravel-module-user/issues/79)) ([2557a20](https://github.com/99linesofcode/laravel-module-user/commit/2557a20962342a812fbab4154140be11eddb6641))
-
-
-
-## [0.3.1](https://github.com/99linesofcode/laravel-module-user/compare/v0.3.0...v0.3.1) (2026-09-17)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `7b1fc23` to `c369d7f` ([#77](https://github.com/99linesofcode/laravel-module-user/issues/77)) ([79c1919](https://github.com/99linesofcode/laravel-module-user/commit/79c1919a9cb884d8bc85b46418e853e98c099d23))
 
 
 
