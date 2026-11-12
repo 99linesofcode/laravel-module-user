@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e7797f4eb6bf9c762865df6d145790a",
+    "content-hash": "4a0f999a1a8d4964fb0b40e7e02d0948",
     "packages": [
         {
             "name": "99linesofcode/laravel-module-support",
             "version": "v0.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/99linesofcode/laravel-module-support.git",
+                "url": "git@github.com:99linesofcode/laravel-module-support.git",
                 "reference": "072334b2f4bc34b646c3bbe708834919a34a03c1"
             },
             "dist": {
