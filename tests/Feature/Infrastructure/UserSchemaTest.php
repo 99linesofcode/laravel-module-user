@@ -10,7 +10,7 @@ describe('the module migrations', function () {
     it('create the users table with a UUID primary key', function () {
         expect(Schema::hasTable('users'))->toBeTrue()
             ->and(Schema::hasColumns('users', ['id', 'name', 'email', 'password', 'locale']))->toBeTrue()
-            ->and(Schema::getColumnType('users', 'id'))->not->toBe('integer');
+            ->and(Schema::getColumnType('users', 'id'))->toBeIn(['uuid', 'char', 'varchar']);
     });
 
     it('create password_reset_tokens and sessions beside it', function () {

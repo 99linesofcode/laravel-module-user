@@ -5,8 +5,8 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 /*
- * Named as Laravel's stock migration, so an app that already ran the stock
- * one is not asked to create the tables twice.
+ * Named apart from Laravel's stock create_users_table, so an app that keeps the
+ * stock migration fails loudly on a duplicate table instead of skipping this one.
  */
 return new class extends Migration
 {

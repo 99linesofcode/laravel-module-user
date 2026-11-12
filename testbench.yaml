@@ -1,7 +1,6 @@
 ---
 env:
   - APP_NAME=Auth
-  - AUTH_MODEL=Lines\Auth\Infrastructure\Models\User
 migrations:
   - workbench/database/migrations
 seeders:
