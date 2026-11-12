@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06397a804f2fa2362546d2bf702b204e",
+    "content-hash": "9e7797f4eb6bf9c762865df6d145790a",
     "packages": [
         {
             "name": "99linesofcode/laravel-module-support",
-            "version": "v0.4.0",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/99linesofcode/laravel-module-support.git",
-                "reference": "ba9e74c884a402aa4ee15b95f0d8ab145f161fcf"
+                "reference": "072334b2f4bc34b646c3bbe708834919a34a03c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/99linesofcode/laravel-module-support/zipball/ba9e74c884a402aa4ee15b95f0d8ab145f161fcf",
-                "reference": "ba9e74c884a402aa4ee15b95f0d8ab145f161fcf",
+                "url": "https://api.github.com/repos/99linesofcode/laravel-module-support/zipball/072334b2f4bc34b646c3bbe708834919a34a03c1",
+                "reference": "072334b2f4bc34b646c3bbe708834919a34a03c1",
                 "shasum": ""
             },
             "require": {
@@ -131,10 +131,10 @@
             "description": "Cross cutting concerns and supporting code for Laravel modules",
             "homepage": "https://github.com/99linesofcode/laravel-module-support",
             "support": {
-                "source": "https://github.com/99linesofcode/laravel-module-support/tree/v0.4.0",
+                "source": "https://github.com/99linesofcode/laravel-module-support/tree/v0.6.0",
                 "issues": "https://github.com/99linesofcode/laravel-module-support/issues"
             },
-            "time": "2026-11-12T15:59:20+00:00"
+            "time": "2026-11-12T16:36:09+00:00"
         },
         {
             "name": "anourvalar/eloquent-serialize",
