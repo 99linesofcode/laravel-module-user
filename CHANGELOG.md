@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/99linesofcode/laravel-module-user/compare/v1.1.0...v1.1.1) (2026-11-12)
+
+
+### Bug Fixes
+
+* **lint:** scan _ide_helper_models.php alone ([63706bb](https://github.com/99linesofcode/laravel-module-user/commit/63706bb6d48c80baf392ad99fdeb72dac4ad1c75))
+
+
+
 # [1.1.0](https://github.com/99linesofcode/laravel-module-user/compare/v1.0.1...v1.1.0) (2026-11-12)
 
 
@@ -50,20 +59,6 @@ Issue: 0052-laravel-modules-meet-the-skeleton-user-contract
 ### Bug Fixes
 
 * **lint:** make composer lint green end to end ([12bc721](https://github.com/99linesofcode/laravel-module-user/commit/12bc721b971d4f7e55ed639c4bfa681aeabf583c))
-
-
-
-# [0.4.0](https://github.com/99linesofcode/laravel-module-user/compare/v0.3.2...v0.4.0) (2026-10-06)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `21db3dd` to `4075c8d` ([#81](https://github.com/99linesofcode/laravel-module-user/issues/81)) ([dd012b9](https://github.com/99linesofcode/laravel-module-user/commit/dd012b90ad3b19c5315ef9a31ca6c367fa147b28))
-
-
-### Features
-
-* **lint:** enforce the layer contract with deptrac ([c0a4afb](https://github.com/99linesofcode/laravel-module-user/commit/c0a4afbfd80f28a4c38874080c71968540c5ca9e))
 
 
 
