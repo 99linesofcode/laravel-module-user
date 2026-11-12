@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/99linesofcode/laravel-module-user/compare/v1.0.1...v1.1.0) (2026-11-12)
+
+
+### Features
+
+* **user:** give the module a domain User beneath the auth model ([b70f4fb](https://github.com/99linesofcode/laravel-module-user/commit/b70f4fbb973f1a8d43d3fba07d308d5998c8549e))
+
+
+
 ## [1.0.1](https://github.com/99linesofcode/laravel-module-user/compare/v1.0.0...v1.0.1) (2026-11-12)
 
 
@@ -55,15 +64,6 @@ Issue: 0052-laravel-modules-meet-the-skeleton-user-contract
 ### Features
 
 * **lint:** enforce the layer contract with deptrac ([c0a4afb](https://github.com/99linesofcode/laravel-module-user/commit/c0a4afbfd80f28a4c38874080c71968540c5ca9e))
-
-
-
-## [0.3.2](https://github.com/99linesofcode/laravel-module-user/compare/v0.3.1...v0.3.2) (2026-09-21)
-
-
-### Bug Fixes
-
-* **deps:** bump devshell from `c369d7f` to `21db3dd` ([#79](https://github.com/99linesofcode/laravel-module-user/issues/79)) ([2557a20](https://github.com/99linesofcode/laravel-module-user/commit/2557a20962342a812fbab4154140be11eddb6641))
 
 
 
